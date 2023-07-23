@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- vm안에 el이 없으면 div 태그안에 아무것도 일어나지 않음. 중요  -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        // vm : ViewModel의 약자. 공식적으로도 많이 씀.
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                message: 'hi'
+            },
+            methods: {
+
+            },
+            created: function() {
+
+            },
+        });     
+    </script>
+</body>
+</html>
